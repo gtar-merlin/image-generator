@@ -1,0 +1,23 @@
+{
+  "name": "diaggen",
+  "version": "1.0.0",
+  "description": "AI diagram generator prototype (web + API)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node -e \"console.log('No tests yet')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "pg": "^8.11.3",
+    "uuid": "^8.3.2"
+  }
+}

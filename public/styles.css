@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.form {
+  display: grid;
+  gap: 10px;
+  max-width: 720px;
+}
+
+textarea,
+select,
+button {
+  font-size: 16px;
+  padding: 8px;
+}
+
+button {
+  width: 150px;
+}
+
+.error {
+  border: 1px solid #ef4444;
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.svg-box {
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  padding: 8px;
+  overflow: auto;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #0b1020;
+  color: #e2e8f0;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.meta {
+  color: #475569;
+  margin-left: 8px;
+}
